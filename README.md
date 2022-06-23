@@ -1,4 +1,4 @@
-Instructions:
+## Running
     - I have made the applciation into a docker application. This is to remove any issues people may have with python packages
 
     - To run the application
@@ -19,6 +19,6 @@ Instructions:
 
 - No authentication was added as I believed it to be out of the scope of the project, but could be added as well
 
-## References and docuemntation
+## References and documentation
 
 - The following library was used for generating the hmac token https://docs.python.org/3/library/hmac.html
