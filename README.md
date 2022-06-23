@@ -1,12 +1,12 @@
 ## Running
-    - I have made the applciation into a docker application. This is to remove any issues people may have with python packages
+- I have made the applciation into a docker application. This is to remove any issues people may have with python packages
 
-    - To run the application
-        1. clone this repo
-        2. Navigate to the root directory
-        3. Run ``` docker build -t *your_image_name* Dockerfile . ```
-        4. Run ``` docker run -p 8081:8081 *your_image_name* ```
-        5. send requests to the endpoint (this example runs on localhost:8081/generate-token)
+- To run the application
+    1. clone this repo
+    2. Navigate to the root directory
+    3. Run ``` docker build -t *your_image_name* Dockerfile . ```
+    4. Run ``` docker run -p 8081:8081 *your_image_name* ```
+    5. send requests to the endpoint (this example runs on localhost:8081/generate-token)
     
     **Note: only the post method has been implemented as per the assesment requirements**
 
